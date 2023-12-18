@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RevitAddIns>
+  <AddIn Type="Application">
+    <Name>AirFlow</Name>
+    <Assembly>Program\BIMLogiq.AirFlow.Startup.dll</Assembly>
+    <FullClassName>BIMLogiq.AirFlow.Startup.Main</FullClassName>
+    <AddInId>813ED2A3-B560-428C-AA53-692D2954CCF6</AddInId>
+    <Publisher>BIMLogiq</Publisher>
+    <VendorId>BIMLogiq</VendorId>
+  </AddIn>
+</RevitAddIns>
+

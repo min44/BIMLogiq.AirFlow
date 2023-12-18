@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <Platforms>X64</Platforms>
+        <TargetFramework>net48</TargetFramework>
+        <LangVersion>latestmajor</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Revit_All_Main_Versions_API_x64" Version="2021.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\BIMLogiq.AirFlow.Config\BIMLogiq.AirFlow.Config.csproj" />
+      <ProjectReference Include="..\BIMLogiq.AirFlow.Core\BIMLogiq.AirFlow.Core.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Calculate.png" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Include="Images\Calculate.png" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="PresentationCore" />
+      <Reference Include="WindowsBase" />
+    </ItemGroup>
+    
+    <PropertyGroup>
+        <PostBuildEvent>
+            cd $(SolutionDir)
+            .\build.cmd
+        </PostBuildEvent>
+    </PropertyGroup>
+    
+</Project>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ApplicationPackage SchemaVersion="1.0"
+                    AutodeskProduct="Revit"
+                    ProductType="Application"
+                    Name="AirFlow"
+                    AppVersion="1.0"
+                    Description="Autodesk® Revit® External Application for calculating air flow"
+                    Author="BOMLOGIQ"
+                    AppNameSpace="appstore.exchange.autodesk.com"
+                    ProductCode="{D9B9E8C6-95CD-4DC0-B644-14A45BFBA972}"
+                    UpgradeCode="{5C5377C0-DDEA-458C-9D1F-E27A32048224}"
+                    OnlineDocumentation="www.bimlogiq.com"
+                    SupportedLocales="Enu"
+                    FriendlyVersion="1.0">
+
+    <CompanyDetails Name="BOMLOGIQ"
+                    Email="info@bimlogiq.com"
+                    Url="www.bimlogiq.com"
+                    Phone=" "/>
+
+    <RuntimeRequirements OS="Win64"
+                         Platform="Revit"
+                         SeriesMin="R2019"
+                         SeriesMax="R2022"/>
+
+    <Components Description="2019 parts">
+        <RuntimeRequirements OS="Win64"
+                             Platform="Revit"
+                             SeriesMin="R2019"
+                             SeriesMax="R2019"/>
+        <ComponentEntry AppName="AirFlow"
+                        Version="1.0"
+                        ModuleName="./Contents/AirFlow.addin"/>
+    </Components>
+
+    <Components Description="2020 parts">
+        <RuntimeRequirements OS="Win64"
+                             Platform="Revit"
+                             SeriesMin="R2020"
+                             SeriesMax="R2020"/>
+        <ComponentEntry AppName="AirFlow"
+                        Version="1.0"
+                        ModuleName="./Contents/AirFlow.addin"/>
+    </Components>
+    <Components Description="2021 parts">
+        <RuntimeRequirements OS="Win64"
+                             Platform="Revit"
+                             SeriesMin="R2021"
+                             SeriesMax="R2021"/>
+        <ComponentEntry AppName="AirFlow"
+                        Version="1.0"
+                        ModuleName="./Contents/AirFlow.addin"/>
+    </Components>
+
+    <Components Description="2022 parts">
+        <RuntimeRequirements OS="Win64"
+                             Platform="Revit"
+                             SeriesMin="R2022"
+                             SeriesMax="R2022"/>
+        <ComponentEntry AppName="AirFlow"
+                        Version="1.0"
+                        ModuleName="./Contents/AirFlow.addin"/>
+    </Components>
+
+    <Components Description="2023 parts">
+        <RuntimeRequirements OS="Win64"
+                             Platform="Revit"
+                             SeriesMin="R2023"
+                             SeriesMax="R2023"/>
+        <ComponentEntry AppName="AirFlow"
+                        Version="1.0"
+                        ModuleName="./Contents/AirFlow.addin"/>
+    </Components>
+    <Components Description="2024 parts">
+        <RuntimeRequirements OS="Win64"
+                             Platform="Revit"
+                             SeriesMin="R2024"
+                             SeriesMax="R2024"/>
+        <ComponentEntry AppName="AirFlow"
+                        Version="1.0"
+                        ModuleName="./Contents/AirFlow.addin"/>
+    </Components>
+
+</ApplicationPackage>

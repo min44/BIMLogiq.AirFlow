@@ -87,8 +87,8 @@ public class CalculateAirFlow
     
     private static IEnumerable<Element> GetConnectedElements(Element element)
     {
-        var connectors = GetConnectors(element).ToList();
         var collectorElements = new List<Element> { element };
+        var connectors = GetConnectors(element).ToList();
         var refs = GetRefs(connectors).ToList();
         var owners = GetOwners(refs).ToList();
         collectorElements.AddRange(owners);

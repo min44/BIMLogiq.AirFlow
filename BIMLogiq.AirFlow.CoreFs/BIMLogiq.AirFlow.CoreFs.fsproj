@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <Platforms>X64</Platforms>
+        <TargetFramework>net48</TargetFramework>
+        <LangVersion>latestmajor</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="SelectionFilter.fs" />
+        <Compile Include="CalculateAirFlow.fs" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Revit_All_Main_Versions_API_x64" Version="2021.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\BIMLogiq.AirFlow.Config\BIMLogiq.AirFlow.Config.csproj" />
+    </ItemGroup>
+
+</Project>

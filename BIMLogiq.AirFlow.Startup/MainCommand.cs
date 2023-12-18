@@ -19,11 +19,10 @@ public class MainCommand : IExternalCommand
             var location = Assembly.GetExecutingAssembly().Location;
             var directory = Path.GetDirectoryName(location);
             if (directory == null) return Result.Failed;
-            var path = Path.Combine(directory, Constants.CoreDll);
+            var path = Path.Combine(directory, Constants.CoreFsDll);
             var rawAssembly = File.ReadAllBytes(path);
             var assembly = Assembly.Load(rawAssembly);
-            var type = assembly.GetType(
-                $"{Constants.Company}.{Constants.AppName}.{Constants.Core}.{Constants.CalculateAirFlow}");
+            var type = assembly.GetType($"{Constants.CoreFsNs}.{Constants.CalculateAirFlow}");
             var methodInfo = type?.GetMethod(Constants.Calculate);
             if (methodInfo == null) return Result.Failed;
             var del = Delegate.CreateDelegate(typeof(Func<UIApplication, double>), methodInfo);

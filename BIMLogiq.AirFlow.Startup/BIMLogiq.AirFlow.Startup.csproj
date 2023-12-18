@@ -12,6 +12,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\BIMLogiq.AirFlow.Config\BIMLogiq.AirFlow.Config.csproj" />
+      <ProjectReference Include="..\BIMLogiq.AirFlow.CoreFs\BIMLogiq.AirFlow.CoreFs.fsproj" />
       <ProjectReference Include="..\BIMLogiq.AirFlow.Core\BIMLogiq.AirFlow.Core.csproj" />
     </ItemGroup>
 

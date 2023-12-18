@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BIMLogiq.AirFlow.Core", "BI
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BIMLogiq.AirFlow.Config", "BIMLogiq.AirFlow.Config\BIMLogiq.AirFlow.Config.csproj", "{2FE8F2EF-A8AD-4790-9D7C-C614AE5A81A2}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "BIMLogiq.AirFlow.CoreFs", "BIMLogiq.AirFlow.CoreFs\BIMLogiq.AirFlow.CoreFs.fsproj", "{43AE0A7E-F6B0-41CE-A1F3-C83BD22AF32E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Release|X64 = Release|X64
@@ -24,5 +26,9 @@ Global
 		{2FE8F2EF-A8AD-4790-9D7C-C614AE5A81A2}.Release|X64.Build.0 = Release|Any CPU
 		{2FE8F2EF-A8AD-4790-9D7C-C614AE5A81A2}.Debug|X64.ActiveCfg = Debug|Any CPU
 		{2FE8F2EF-A8AD-4790-9D7C-C614AE5A81A2}.Debug|X64.Build.0 = Debug|Any CPU
+		{43AE0A7E-F6B0-41CE-A1F3-C83BD22AF32E}.Release|X64.ActiveCfg = Release|Any CPU
+		{43AE0A7E-F6B0-41CE-A1F3-C83BD22AF32E}.Release|X64.Build.0 = Release|Any CPU
+		{43AE0A7E-F6B0-41CE-A1F3-C83BD22AF32E}.Debug|X64.ActiveCfg = Debug|Any CPU
+		{43AE0A7E-F6B0-41CE-A1F3-C83BD22AF32E}.Debug|X64.Build.0 = Debug|Any CPU
 	EndGlobalSection
 EndGlobal
